@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Roomie's | Sign in</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='http://fonts.googleapis.com/css?family=Raleway:100,200,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:800italic,400,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+  </head>
+
+  <body>
+
+    <div class="loader-container">
+      <div class="spinner">
+  		<div class="double-bounce1" style="background-color: #ebcb4b!important"></div>
+  		<div class="double-bounce2" style="background-color: #ebcb4b!important"></div>
+	  </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+      <div class="main-heading">Roomie's</div>
+        <form class="form-signin">
+          <div class="signin-label">Username</div>
+          <input type="text" class="input-block-level">
+          <div class="signin-label">Password</div>
+          <input type="password" class="input-block-level">
+          
+          <div class="button1"><a href="dashboard.html" class="signin-text" style="text-decoration:none;">Sign in</a></div>
+
+        </form>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      setTimeout(function() {
+      $('.loader-container').slideUp();
+    }, 2000);
+    </script>
+
+  </body>
+</html>
