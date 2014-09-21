@@ -367,12 +367,21 @@ body {
 
 .chart {
   position: absolute;
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   top: 60%;
   left: 50%;
-  margin: -200px 0 0 -200px;
+  margin: -175px 0 0 -175px;
 }
+.chart2 {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  top: 60%;
+  left: 50%;
+  margin: -175px 0 0 -175px;
+}
+
 .doughnutTip {
   position: absolute;
   min-width: 30px;

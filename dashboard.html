@@ -24,16 +24,22 @@
 
     <div class="container">
       <div class="row">
-        <div class="main-heading">Roomie's</div>
-        <div id="doughnutChart" class="chart"></div>
-
+          <div class="main-heading">Finances</div>
+          <div class="col-lg-5" style="margin-right:100px">
+            <div>Incoming</div>
+              <div id="doughnutChart" class="chart"></div>
+            </div>
+          <div class="col-lg-5" style="margin-left:100px">
+            <div>Outgoing</div>
+            <div id="doughnutChart2" class="chart2"></div>
+          </div>
       </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/piechart.js"></script>
-
+<script src="js/piechart2.js"></script>
     <script>
       setTimeout(function() {
       $('.loader-container').slideUp();
