@@ -15,26 +15,31 @@
 
   <body>
 
-  <!--  <div class="loader-container">
-      <div class="spinner">
-  		<div class="double-bounce1" style="background-color: #ebcb4b!important"></div>
-  		<div class="double-bounce2" style="background-color: #ebcb4b!important"></div>
-	  </div>
-    </div>-->
-
     <div class="container">
       <div class="row">
-          <div class="main-heading">Finances</div>
-          <div class="col-lg-5" style="margin-right:100px">
-            <div>Incoming</div>
-              <div id="doughnutChart" class="chart"></div>
-            </div>
-          <div class="col-lg-5" style="margin-left:100px">
-            <div>Outgoing</div>
-            <div id="doughnutChart2" class="chart2"></div>
-          </div>
+          <div class="main-heading" style="margin-top:30px; margin-bottom:40px">Finances</div>   
       </div>
-    </div>
+      
+      <div class="row">
+      	<div class="col-lg-5">
+      		<div class="sub-heading">Incoming</div>
+       		<div id="doughnutChart" class="chart" style="margin-top:30px;"></div>
+       	</div>
+       	<div class="col-lg-2">.</div>
+      	<div class="col-lg-5">
+	        <div class="sub-heading">Outgoing</div>
+        	<div id="doughnutChart2" class="chart2" style="margin-top:30px;"></div>
+        </div>
+      </div>
+	  <div class="row" style=" bottom:1">
+      	<div class="col-lg-5">
+      		<div class="button2" style="text-align:center;"><a href="#" class="signin-text" style="text-decoration:none;">Submit Receipts</a></div>
+      	</div>
+      	<div class="col-lg-2">.</div>
+		<div class="col-lg-5">
+      		<div class="button2" style="text-align:center;"><a href="#" class="signin-text" style="text-decoration:none;">Pay Expenses</a></div>
+      	</div>
+      </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

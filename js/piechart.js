@@ -1,6 +1,5 @@
 $(function(){
   $("#doughnutChart").drawDoughnutChart([
-    { title: "Umesh",         value : 13,  color: "#2C3E50" },
     { title: "Edmond",        value:  22,   color: "#FC4349" },
     { title: "Paul",      value:  82,   color: "#6DBCDB" },
     { title: "Jerry",        value : 55,   color: "#FFF" }

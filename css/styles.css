@@ -35,6 +35,14 @@ body {
   margin-top: 80px;
   text-align: center;
 }
+.main-heading1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color: #fff;
+  font-size: 58px;
+  margin-top: 15px;
+  text-align: center;
+}
 .sub-heading {
   font-family: 'Raleway', sans-serif;
   font-style: italic;
@@ -351,6 +359,37 @@ body {
 }
 
 .button1:hover {
+    background-color: #FFF;
+    border: 1px solid #333;
+    color: #333;
+}
+
+.button2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300; 
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  max-width: 200px;
+  background: #333;
+  border: 1px solid white;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 170% 5%;
+  cursor: pointer;
+  font-size: 1.1em;
+  width: 300px;
+  height: 40px;
+  text-decoration: none; 
+  outline: none;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.button2:hover {
     background-color: #FFF;
     border: 1px solid #333;
     color: #333;
